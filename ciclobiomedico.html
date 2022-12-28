@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> pagina principal</title>
+    <meta charset="utf-8">
+    <link href="paginainicio.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+ </head>
+<body>
+  <header>
+    <div id="logo"></div>
+    <nav id="botonera_superior">
+      <ul>
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="ciclobiomedico.html">Ciclo Biomedico</a></li>
+        <li><a href="cicloclinico.html">Ciclo Clinico</a></li>
+        <li><a href="iar.html">IAR</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="ciclo_biomedico">
+     <p>Contrariamente a la creencia popular, Lorem Ipsum no es simplemente un texto aleatorio. Tiene raíces en una pieza de literatura latina clásica del 45 a. C., con más de 2000 años de antigüedad. Richard McClintock, profesor de latín en el Hampden-Sydney College en Virginia, buscó una de las palabras latinas más oscuras, consectetur, de un pasaje de Lorem Ipsum, y al revisar las citas de la palabra en la literatura clásica, descubrió la fuente indudable. Lorem Ipsum proviene de las secciones 1.10.32 y 1.10.33 de "de Finibus Bonorum et Malorum" (Los extremos del bien y del mal) de Cicero, escrito en el año 45 antes de Cristo. Este libro es un tratado sobre la teoría de la ética, muy popular durante el Renacimiento. La primera línea de Lorem Ipsum, "Lorem ipsum dolor sit amet ..", proviene de una línea en la sección 1.10.3</p>
+   </section>
+   <section id="formulario">
+   	<h1>Compartinos tu experiencia en este ciclo</h1>
+   	<form id="contanos">
+   			<input type="nombre" id="nombre" placeholder="Nombre">
+   			<input type="catedras" id="catedras" placeholder="Materia y catedras">
+   			<input type="email" id="correo" placeholder="Correo electronico" >
+	   	  <input type="mensaje" id="tuexperiencia"placeholder="¿Cual fue tu experiencia?" rows="10">
+        <input type="submit" id="boton" value="Ingresar">
+   	</form>
+   </section> 
+     <footer>
+    <nav id="materias-biomedico">
+      <ul>
+        <li><a onclick="mostrarElemento('lista')" id="esconder">Materias</a></li>
+        <ul id="lista">
+        <li><a href="anatomia.html">Anatomia</a></li>
+        <li><a href="histoyembrio.html">Histo y embrio</a></li>
+        <li><a href="saludmental.html">Salud mental</a></li>
+        <li><a href="bioetica1.html">Bioetica 1</a></li>
+        <li><a href="medicinafamiliar.html">Medicina familiar</a></li>
+        <li><a href="fisiologia.html">Fisiologia</a></li>
+        <li><a href="#">Microbiologia 1 y 2</a></li>
+        <li><a href="#">Inmunologia</a></li>
+        <li><a href="#">Patologia 1</a></li>
+        <li><a href="#">Farmacologia 1</a></li>
+      </ul>
+ </ul>
+      </nav>
+    </footer>
+    <script type="text/javascript" src="js/validacion.js"></script>
+    <script type="text/javascript" src="js/hoja.js"></script>
+</body>
+</html>

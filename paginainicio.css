@@ -1,0 +1,928 @@
+ body{
+	width: 1024px;
+	height:900px;
+	margin: auto;
+    background-image: url(https://i.postimg.cc/R0M2mLqj/facultad.jpg);
+    font-color: #fafafa;
+	font-family: 'Crete Round', serif;
+}
+header{
+	width: 1024px;
+	height: 130px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#logo{
+	width: 371px;
+	height: 129px; 
+	background-image: url(https://i.postimg.cc/v8914vck/LogoUBA.png);
+	float: left;
+}
+#botonera_superior{
+	width: 643px;
+	height: 130px;
+	float: right;
+}
+#botonera_superior ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#botonera_superior ul li{
+	display: inline;
+}
+#botonera_superior ul li a{
+	display: inline-block;
+	text-decoration: none;
+	color:#ffffff;
+	font-weight: bold;
+	font-size: 25px;
+	border: 1PX solid #553245;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	padding: 17px;
+	margin-top: 25px;
+	background-color: rgba(126, 214, 194,0.5);
+}
+#botonera_superior ul li a:hover {
+	background-color: #6fa19c;
+	color: #000000;
+}
+#contenido{
+	font-size: 30px;
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;	
+	background-color: rgba(175,237, 192, 0.6);
+	border: 1PX solid #553245;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	padding: 17px;
+}
+#locomotor{
+	font-size: 30px;
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;	
+	background-color: rgba(175,237, 192, 0.6);
+	border: 1PX solid #553245;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	padding: 17px;
+}
+#esplacnologia{
+	font-size: 30px;
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;	
+	background-color: rgba(175,237, 192, 0.6);
+	border: 1PX solid #553245;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	padding: 17px;
+}
+#repaso{
+	font-size: 25px;
+	width: 1024px;
+	height: 350px;
+	margin-left: auto;
+	margin-right: auto;	
+	background-color: rgba(175,237, 192, 0.6);
+	border: 1PX solid #553245;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	padding: 17px;
+}
+#repaso ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#repaso ul li{
+	display: inline;
+}
+#repaso ul li a{
+	display: inline-block;
+	text-decoration: none;
+	color:#000000;
+	font-weight: bold;
+	font-size: 30px;
+	border: 1PX solid #553245;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	margin-top: 25px;
+	background-color: rgba(175,237, 192);
+	padding: 15px;
+}
+#contenedor{
+	position: relative;
+	width: 200px;
+	height: 150px;
+	color:#ffffff;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 20px 10px 20px 10px;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	padding: 3px;
+	margin-top: 25px;
+	background-color: rgba(178, 225, 235,0.5);
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	-webkit-perspective:220px;
+	-webkit-perspective-origin:10%10%;
+	perspective: 220px;
+	perspective-origin: 10%10%;
+	animation-name: mianimacion;
+	animation-duration: 6s;
+}
+#resultado_bio{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	color:#000000;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 20px 10px 20px 10px;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	padding: 17px;
+	margin-top: 25px;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;	
+	-webkit-transform:rotateX(40deg);
+	transform: rotateX(40deg);
+	animation-name: animacion;
+	animation-duration: 6s;
+}
+#resultado_gene{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	color:#000000;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 20px 10px 20px 10px;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	padding: 17px;
+	margin-top: 25px;
+	background-color: rgba(178, 225, 235,0.0);
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;	
+	-webkit-transform:rotateX(40deg);
+	transform: rotateX(40deg);
+	animation-name: animacion;
+	animation-duration: 6s;
+}
+#resultado_histo{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	color:#000000;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 20px 10px 20px 10px;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	padding: 17px;
+	margin-top: 25px;
+	background-color: rgba(178, 225, 235,0.0);
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;	
+	-webkit-transform:rotateX(40deg);
+	transform: rotateX(40deg);
+	animation-name: animacion;
+	animation-duration: 6s;
+}
+#resultado_embrio{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	color:#000000;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 20px 10px 20px 10px;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	padding: 17px;
+	margin-top: 25px;
+	background-color: rgba(178, 225, 235,0.0);
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;	
+	-webkit-transform:rotateX(40deg);
+	transform: rotateX(40deg);	
+	animation-name: animacion;
+	animation-duration: 6s;
+}
+@keyframes mianimacion{
+	from{
+		width: 200px;
+		height: 150px;
+		background-color: rgba(178, 225, 235,0.5);
+	}
+	to{
+		width: 400px;
+		height: 200px;
+		background-color: rgba(178, 225, 235,0.8);
+	}
+}
+@keyframes animacion{
+	from{
+		font-size: 30px;
+	}
+	to{
+		font-size: 55px;
+	}
+}
+
+#presentacion{
+	width: 1024px;
+	height: 800px;
+	margin-left: auto;
+	float: right;
+	margin-right: auto;	
+	font-size: 35px;
+	background-color: rgba(178, 225, 235,0.4);
+	border: 1PX solid #553245;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	padding: 10px;
+}
+#fechas_examenes{
+	width: 450px;
+	height: 800px;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;	
+	font-size: 20px;
+	background-color: rgba(178, 225, 235,0.4);
+	border: 1PX solid #553245;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	padding: 10px;
+}
+#ciclo_biomedico{
+	width: 1024px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;	
+	font-size: 30px;
+	background-color: rgba(178, 225, 235,0.4);
+	border: 1PX solid #553245;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	padding: 17px
+}
+#video{
+	float: right;
+}
+#botonera_lateral ul {
+   list-style: none;
+   display: block;
+   width: 200px;
+   position: relative;
+   padding: 60px 10px 60px 10px;
+   -webkit-background-size: 50% 100%;
+   -moz-background-size: 50% 100%;
+   background-size: 50% 100%;
+
+} 
+#botonera_lateral ul li a {
+	font-size: 53px;
+   -webkit-transition: all 0.3s ease-out;
+   -moz-transition: all 0.3s ease-out;
+   -o-transition: all 0.3s ease-out;
+   background-color: rgba(178, 225, 235,0.6);
+   color: #ffffff;
+   padding: 0px 60px 0px 20px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   width: 100px;
+   text-decoration: none;
+   -webkit-box-shadow: 2px 2px 4px #000000;
+   -moz-box-shadow: 2px 2px 4px #000000;
+   box-shadow: 2px 2px 4px #000000;
+} 
+#botonera_lateral ul li a:hover {
+   background: #6fa19c;
+   color: #000000;
+   padding: 7px 15px 7px 30px;
+}
+#bibliotecas{
+	font-size: 30px;
+	color: #fafafa;
+	background-color: rgba(178, 225, 235,0.4);
+	border: 1PX solid #553245;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	padding: 17px
+}
+#fotocopiadoras{
+	font-size: 30px;
+	color: #fafafa;
+	background-color: rgba(178, 225, 235,0.4);
+	border: 1PX solid #553245;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	padding: 17px
+}
+#buffet{
+	font-size: 30px;
+	color: #fafafa;
+	background-color: rgba(178, 225, 235,0.4);
+	border: 1PX solid #553245;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	padding: 17px
+}
+#formulario{
+	width: 1024px;
+	height: 700px;
+	margin-left: auto;
+	margin-right: auto;	
+	font-size: 30px;
+	background-color: rgba(178, 225, 235,0.4);
+	list-style-type: none;
+	border: 1PX solid #553245;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	padding: 17px
+}
+footer {
+	width: 1024px;
+	height: 150px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#materias-biomedico{
+	width: 1024px;
+	height: 90px;
+	float: left;
+}
+#materias-biomedico ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#materias-biomedico ul li{
+	display: inline;
+}
+#materias-biomedico ul li a{
+	display: inline-block;
+	text-decoration: none;
+	color:#000000;
+	font-weight: bold;
+	font-size: 20px;
+	border: 1PX solid #553245;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	padding: 15px;
+	margin-top: 25px;
+	background-color: rgba(175,237, 192, 0.4);
+}
+#materias-biomedico ul li a:hover{
+	background-color: #6fa19c;
+	color: #000000;
+}
+#botonera_inferior_inicio{
+		width: 1024px;
+}
+#botonera_inferior_inicio ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#botonera_inferior_inicio ul li{
+	display: inline;
+}
+#botonera_inferior_inicio ul li a{
+	display: inline-block;
+	text-decoration: none;
+	color:#ffffff;
+	font-weight: bold;
+	font-size: 25px;
+	padding: 20px 10px 20px 10px;
+	border: 1PX solid #553245;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	padding: 17px;
+	margin-top: 25px;
+	background-color: rgba(126, 214, 194,0.5);
+}
+#botonera_inferior_inicio ul li a:hover{
+	background-color: #6fa19c;
+	color: #000000;
+}
+#botonera_inferior ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#botonera_inferior ul li{
+	display: inline;
+}
+#botonera_inferior ul li a{
+	display: inline-block;
+	text-decoration: none;
+	color:#ffffff;
+	font-weight: bold;
+	font-size: 25px;
+	padding: 20px 10px 20px 10px;
+	border: 1PX solid #553245;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	padding: 17px;
+	margin-top: 25px;
+	background-color: rgba(126, 214, 194,0.5);
+}
+#botonera_inferior ul li a:hover{
+	background-color: #6fa19c;
+	color: #000000;
+}
+#esconder{
+	width: 1024px;
+	color:#ffffff;
+	font-weight: bold;
+	font-size: 25px;
+	padding: 20px 10px 20px 10px;
+	border: 1PX solid #553245;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	padding: 17px;
+	margin-top: 25px;
+	background-color: rgba(126, 214, 194,0.5);
+	margin-right: auto;
+	margin-left: auto;
+
+}
+#botonera_inferior_inicio ul li a:hover{
+	background-color: #6fa19c;
+	color: #000000;
+}
+#contanos{
+	width: 600px;
+	height: 500px;
+	color:#ffffff;
+	font-weight: bold;
+	padding: 20px 10px 20px 10px;
+	border: 1PX solid #553245;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	padding: 17px;
+	margin-top: 25px;
+	background-color: rgba(126, 214, 194);
+	box-sizing: border-box;
+	margin-right: auto;
+	margin-left: auto;
+}
+#nombre{
+	width: 550px;
+	height: 50px;
+	color:#ffffff;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 20px 10px 20px 10px;
+	border: 1PX solid #553245;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	padding: 17px;
+	margin-top: 25px;
+	background-color: #27a395;
+	box-sizing: border-box;
+
+}
+#correo{
+	width: 550px;
+	height: 50px;
+	color:#ffffff;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 20px 10px 20px 10px;
+	border: 1PX solid #553245;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	padding: 17px;
+	margin-top: 25px;
+	background-color: #27a395;
+	box-sizing: border-box;
+
+}
+#catedras{
+	width: 550px;
+	height: 50px;
+	color:#ffffff;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 20px 10px 20px 10px;
+	border: 1PX solid #553245;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	padding: 17px;
+	margin-top: 25px;
+	background-color: #27a395;
+	box-sizing: border-box;
+}
+#tuexperiencia{
+	width: 550px;
+	height: 130px;
+	color:#ffffff;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 20px 10px 20px 10px;
+	border: 1PX solid #553245;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	padding: 17px;
+	margin-top: 25px;
+	background-color: #27a395;
+	box-sizing: border-box;
+}
+#boton{
+	width: 100px;
+	height: 70px;
+	color:#ffffff;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 20px 10px 20px 10px;
+	border: 1PX solid #553245;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	padding: 17px;
+	margin-top: 25px;
+	background-color: #27a395;
+	box-sizing: border-box;	
+}
+#volver{
+	width: 180px;
+	font-size: 45px;
+	color: #fafafa;
+	background-color: rgba(178, 225, 235,0.6);
+	border: 1PX solid #553245;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	padding: 17px;
+	box-sizing: border-box;
+	margin-right: auto;
+	margin-left: auto;
+}
+#videorrecorrido{
+	width: 550px;
+}
+#botonera_video button span{
+	font-size: 25px;
+}
+.centrado{
+	margin: 0 auto;
+	padding: 0 1em;
+}
+.menu-section{
+	padding-bottom: 2em;
+	margin-bottom: 2em;
+	border-bottom: 1px solid hsl(0,0%);
+}
+#materias-clinico ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#materias-clinico ul li a{
+	display: block;
+	text-decoration: none;
+	color:#000000;
+	font-weight: bold;
+	font-size: 20px;
+	border: 1PX solid #553245;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	padding: 15px;
+	margin-top: 25px;
+	background-color: rgba(175,237, 192, 0.4);
+}
+.menu-simple ul{
+	display: flex;
+	flex-wrap: wrap;
+	}
+#materias-clinico ul li a:hover{
+	background-color: #6fa19c;
+	color: #000000;
+}
+#info_clinico{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: auto;
+	margin-right: auto;	
+	font-size: 35px;
+	background-color: rgba(178, 225, 235,0.4);
+	border: 1PX solid #553245;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	padding: 10px;
+}
+@media all and (min-width: 600px) and (max-width: 1023px){
+
+body{
+	width: 590px;
+    background-image: url(https://i.postimg.cc/R0M2mLqj/facultad.jpg);
+}
+header{
+	width: 580px;
+}
+#logo{
+	width: 100px;
+	height: 87px; 
+	background-image: url(https://i.postimg.cc/R0M2mLqj/facultad.jpg);
+}
+#botonera_superior{
+	width: 430px;
+	height: 165px;
+}
+#botonera_superior ul li a{
+	font-size: 13px;
+	padding: 10px;
+	margin-top: 15px;
+}
+#contenido{
+	width: 580px;
+	padding: 17px;
+}
+#presentacion{
+	width: 580px;
+	height: 850px;
+}
+#ciclo_biomedico{
+	width: 580px;
+	height: 850px;
+}
+#botonera_lateral{
+	height: 800px;
+	width: 580px;
+}
+#botonera_lateral ul {
+   list-style: none;
+   display: block;
+   width: 200px;
+   position: relative;
+   top: 50px;
+   left: 100px;
+   padding: 60px 10px 60px 10px;
+   -webkit-background-size: 50% 100%;
+   -moz-background-size: 50% 100%;
+   background-size: 50% 100%;
+
+} 
+#botonera_lateral ul li a {
+   -webkit-transition: all 0.3s ease-out;
+   -moz-transition: all 0.3s ease-out;
+   -o-transition: all 0.3s ease-out;
+   background-color: rgba(178, 225, 235,0.4);
+   color: #ffffff;
+   padding: 0px 100px 0px 20px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   width: 100px;
+   /*display: block;*/
+   text-decoration: none;
+   -webkit-box-shadow: 2px 2px 4px #000000;
+   -moz-box-shadow: 2px 2px 4px #000000;
+   box-shadow: 2px 2px 4px #000000;
+} 
+#botonera_lateral ul li a:hover {
+   background: #6fa19c;
+   color: #000000;
+   padding: 7px 15px 7px 30px;
+}
+#video{
+	float: none;
+}
+#bibliotecas{
+	font-size: 20px;
+	margin-top: 0;
+}
+#fotocopiadoras{
+	font-size: 20px;
+}	
+#buffet{
+	font-size: 20px;
+}
+#formulario{
+	width: 580px;
+	height: 500px;
+}
+footer {
+	width: 580px;
+	height: 150px;
+}
+#botonera_inferior{
+	width: 580px;
+	height: 150px;
+}
+#repaso{
+	width: 550px;
+}
+
+#resultado_bio{
+	width: 450px;
+
+}
+#resultado_gene{
+	width: 450px;
+	
+}
+#resultado_histo{
+	width: 450px;
+}
+#resultado_embrio{
+	width: 450px;
+}
+#esconder{
+	width: 450px;
+}
+#contanos{
+	width: 450px;
+}
+#nombre{
+	width: 400px;
+}
+#correo{
+	width: 400px;
+}
+#catedras{
+	width: 400px;
+}
+#tuexperiencia{
+	width: 400px;
+}
+#boton{
+	width: 100px;
+	height: 70px;
+}
+}
+@media all and (max-width:599px){
+	body{
+	width: 90%;
+	height:auto;
+	background-image: url(https://i.postimg.cc/R0M2mLqj/facultad.jpg);
+}
+header{
+	width: 90%;
+	height: auto;
+}
+#botonera_superior{
+	width: 90%;
+	height: auto;
+	float: none;
+}
+#botonera_superior ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#botonera_superior ul li{
+	display: block;
+}
+#botonera_superior ul li a{
+	font-size: 20px;
+	padding: 17px;
+	margin-top: 25px;
+}
+#contenido{
+	width: 90%;
+	padding: 17px;
+}
+#presentacion{
+	width: 90%;
+	height: auto;
+	font-size: 25px;
+	padding: 10px;
+}
+#ciclo_biomedico{
+	width: 90%;
+	height: auto;
+	font-size: 30px;
+	padding: 17px
+}
+#video{
+	float: none;
+	width: 400px;
+	display: block;
+	margin: auto;
+}
+#botonera_lateral ul {
+   list-style: none;
+   display: block;
+   width: 15%;
+   position: relative;
+   top: 10%;
+   left: 8%;
+   padding: 60px 10px 60px 10px;
+   -webkit-background-size: 50% 100%;
+   -moz-background-size: 50% 100%;
+   background-size: 50% 100%;
+
+} 
+#botonera_lateral ul li a {
+   -webkit-transition: all 0.3s ease-out;
+   -moz-transition: all 0.3s ease-out;
+   -o-transition: all 0.3s ease-out;
+   background-color: rgba(178, 225, 235,0.4);
+   color: #ffffff;
+   padding: 0px 100px 0px 20px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   width: 100px;
+   text-decoration: none;
+   -webkit-box-shadow: 2px 2px 4px #000000;
+   -moz-box-shadow: 2px 2px 4px #000000;
+   box-shadow: 2px 2px 4px #000000;
+} 
+#botonera_lateral ul li a:hover {
+   background: #6fa19c;
+   color: #000000;
+   padding: 7px 15px 7px 30px;
+}
+#bibliotecas{
+	font-size: 30px;
+	padding: 17px
+}
+#fotocopiadoras{
+	font-size: 30px;
+	padding: 17px
+}
+#buffet{
+	font-size: 30px;
+	padding: 17px
+}
+#formulario{
+	width: 90%;
+	height: auto;
+	font-size: 30px;
+	padding: 17px
+}
+footer {
+	width: 90%;
+	height: auto;
+}
+#botonera_inferior{
+	width: 90%;
+	height: auto;
+	float: none;
+}
+#botonera_inferior ul li a{
+	font-size: 20px;
+	padding: 15px;
+	margin-top: 25px;
+}
+#botonera_inferior_inicio ul li a{
+	font-size: 20px;
+	padding: 20px 5px 20px 5px;
+	margin-top: 25px;
+}
+#repaso{
+	width: 90%;
+}
+
+#resultado_bio{
+	width: 90%;
+
+}
+#resultado_gene{
+	width: 90%;
+	
+}
+#resultado_histo{
+	width: 90%;
+}
+#resultado_embrio{
+	width: 90%;
+}
+#esconder{
+	width: 90%;
+}
+#contanos{
+	width: 95%;
+}
+#nombre{
+	width: 85%;
+}
+#correo{
+	width: 85%;
+}
+#catedras{
+	width: 85%;
+}
+#tuexperiencia{
+	width: 85%;
+}
+#boton{
+	width: 56%;
+}
+}
